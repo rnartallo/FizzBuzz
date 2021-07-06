@@ -1,8 +1,15 @@
-const prompt = require('prompt-sync')({sigint: true});
+import * as readline from 'readline';
 
-const n = Number(prompt('Enter a maximum'));
+let rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
 
-console.log(n+1)
+rl.question('Enter a max number: ', (answer) => {
+  playFizzBuzz(Number(answer))
+  rl.close();
+});
+
 function playFizzBuzz(n: number){
     for (let i=1;i<(n+1);i++){
         var div = false
@@ -76,5 +83,4 @@ function playFizzBuzz(n: number){
             console.log(i)
         }
     }};
-playFizzBuzz(n)
 
