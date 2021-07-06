@@ -7,6 +7,7 @@ for (let i=1;i<101;i++){
     var hasbang = false
     var hasbong = false
     var hasfezz = false
+    var seventeen_exception = false
     if (i%3==0){
         div=true
         hasfizz = true
@@ -26,6 +27,10 @@ for (let i=1;i<101;i++){
     if(i%13==0){
         div = true
         hasfezz = true
+    }
+    if(i%17==0){
+        div=true
+        seve
     }
     if(div){
         if (hasfizz && !hasbong){
