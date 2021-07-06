@@ -1,0 +1,24 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnartallo/FizzBuzz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnartallo/FizzBuzz/issues"
+  },
+  "homepage": "https://github.com/rnartallo/FizzBuzz#readme",
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
+}
